@@ -37,7 +37,7 @@ new Vue({
             id: 'firebase'
           }
         ],
-        img: '/public/web-ai-fitness.webp'
+        img: 'public/web-ai-fitness.webp'
       },
 
       {
@@ -65,8 +65,8 @@ new Vue({
             id: 'tailwindcss'
           },
         ],
-        img: '/public/portolio-arq.mp4',
-        video: '/public/portolio-arq.mp4'
+        img: 'public/portolio-arq.mp4',
+        video: 'public/portolio-arq.mp4'
       }
     ],
   },
