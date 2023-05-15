@@ -1,0 +1,52 @@
+section {
+  min-height: 100vh;
+}
+
+.animation-hidden-skills {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(100%);
+  transition: all 1s;
+}
+
+.animation-show-skills {
+  filter: blur(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.animation-hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.animation-show {
+  filter: blur(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+@media(prefers-reduced-motion) {
+  .animation-hidden {
+    transition: none;
+  }
+
+  .animation-hidden-right {
+    transition: none;
+  }
+}
+
+.splide__pagination {
+  display: none !important;
+}
+
+.splide__slide {
+  padding: .5rem;
+}
+
+a.active {
+  color: #ca7e04;
+  font-weight: 800;
+}
