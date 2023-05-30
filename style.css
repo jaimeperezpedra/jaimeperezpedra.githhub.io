@@ -50,3 +50,13 @@ a.active {
   color: #ca7e04;
   font-weight: 800;
 }
+
+.notification-enter-active,
+.notification-leave-active {
+  transition: opacity 0.5s;
+}
+
+.notification-enter,
+.notification-leave-to {
+  opacity: 0;
+}
